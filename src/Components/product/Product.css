@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.product{
+    display:flex;
+    flex-direction: column;
+    min-width: 90%;
+    object-fit: contain;
+}
+
+.item__productpage h3{
+    justify-self: center;
+    align-items: left;
+    color: #ffc107;
+    /* padding-bottom: 3em; */
+    /* box-shadow: 0.1em 0.1em 0.4em 0.3em rgba(0,0,0,0.1); */
+}
+.item__productpage p{
+    color: white;
+}
+
+
+/*Items*/
+
+  
+  .addToCart__productpage > button {
+    border: none;
+    background-color: #ffc107;
+    padding: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  .addToCart__productpage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+  }
+  
+  .addToCart__productpage > h4 {
+    color: #ffc107;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+
+  .addToCart2__productpage > button {
+    border: none;
+    background-color: #ffc107;
+    padding: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  .addToCart2__productpage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+  }
+  
+  .addToCart2__productpage > h4 {
+    color: #ffc107;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+.checkout__right{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+  color: #ffffff;
+  width: 400px;
+  height: 70px;
+  border-radius: 1em;
+}
+
+.checkout__right button{
+  background-color: #000000;
+  color:#ffc107 ;
+  border-radius:0.9em ;
+  width: 50%;
+  height: 50%;
+  border-color: #ffc107;
+}
+
+.checkout__right p{
+  font-size: 1em;
+  font-weight: 400;
+  padding-bottom: 0.3em;
+}
